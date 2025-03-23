@@ -1,0 +1,20 @@
+[[var]]
+identifier = "plugin_name"
+type = "text"
+message = "What is the name of your plugin?"
+
+[[var]]
+identifier = "plugin_type"
+type = "select"
+message = "What is the type of your plugin method?"
+options = ["before", "around", "after"]
+
+[[var]]
+identifier = "plugin_method"
+type = "text"
+message = "What is the method your plugin applies to?"
+
+[[var]]
+identifier = "subject_name"
+type = "text"
+message = "Which class should the plugin be applied to?"
